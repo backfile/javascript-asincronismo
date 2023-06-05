@@ -1,0 +1,7 @@
+Cuando se declara una función con la palabra clave async, se está indicando que la función devuelve automáticamente una promesa. Esto significa que la función en sí misma se comporta como una promesa y puede ser utilizada como tal.
+
+Cuando se llama a una función declarada como async, se devuelve una promesa inmediatamente, incluso si no se usa explícitamente la palabra return dentro de la función. La promesa se resolverá con el valor que se retorne de la función o se rechazará con el error que se arroje.
+
+Es importante tener en cuenta que si una función async tiene explícitamente una instrucción return, el valor que se retorne se convertirá en el valor resuelto de la promesa. Si no se usa return en la función, la promesa se resolverá con undefined. Además, dentro de una función async, se puede utilizar la palabra clave await para esperar a que se resuelvan otras promesas antes de continuar la ejecución.
+
+En resumen, al declarar una función como async, se está indicando que la función devuelve una promesa y permite trabajar con la promesa resultante utilizando .then() y .catch(). Esto brinda una forma más conveniente de manejar operaciones asincrónicas y simplifica el uso de promesas en el código.

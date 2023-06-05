@@ -1,0 +1,19 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/challenge.js"
+
+  },
+  "keywords": [
+    "javascript",
+    "asincronismo"
+  ],
+  "author": "Franco Caraffa <francocaraffa2005@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
